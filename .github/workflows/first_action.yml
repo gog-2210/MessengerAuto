@@ -4,8 +4,9 @@
 name: Node.js CI
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'  # Chạy mỗi 5 phút
+    - cron: '*/10 * * * *'  # Chạy mỗi 5 phút
   push:
     branches: [ "main" ]
   pull_request:
