@@ -15,11 +15,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
-    env:
-      EMAIL: ${{ secrets.EMAIL }}
-      PASSWORD: ${{ secrets.PASSWORD }}
-      GROUP_URL: ${{ secrets.GROUP_URL }}
 
     strategy:
       matrix:
