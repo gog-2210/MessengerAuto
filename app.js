@@ -6,8 +6,8 @@ require("dotenv").config();
 const messages = [
     "Chúc mọi người ngày mới luôn vui vẻ và tràn đầy năng lượng!",
     "Chúc mọi người có một ngày làm việc hiệu quả! Mong rằng mọi thứ sẽ thuận lợi và đạt kết quả tốt.",
-    "Chúc ae luôn giữ được tinh thần lạc quan! Hãy nhìn về phía trước và đón nhận những điều tốt đẹp.",
-    "Chúc mọi người sức khỏe và hạnh phúc! Mong rằng mọi người sẽ luôn mạnh khỏe và có những khoảnh khắc vui vẻ bên gia đình và bạn bè.",
+    "Chúc ae  một ngày mới tràn đầy niềm vui và hạnh phúc! Làm gì thì làm nhớ giữ gìn sức khỏe nhé ae.",
+    "Chúc mọi người ngày mới nhiều sức khỏe, hạnh phúc! Và có những khoảnh khắc vui vẻ bên gia đình.",
     "Chúc mọi người ngày mới luôn thành công trong mọi dự định!",
     "Chúc ae một ngày tràn ngập niềm vui! Hãy dành thời gian cho những điều bạn yêu thích.",
     "Chúc mọi người luôn yêu đời và có nhiều nụ cười! ngày mới tốt lành nhé!",
