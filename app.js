@@ -4,15 +4,14 @@ const { setTimeout } = require("timers/promises");
 require("dotenv").config();
 
 const messages = [
-    "Chúc mọi người luôn vui vẻ và tràn đầy năng lượng! Hãy làm cho ngày hôm nay thật đặc biệt!",
-    "Chúc mọi người có một ngày làm việc hiệu quả! Mong rằng mọi nhiệm vụ sẽ thuận lợi và đạt kết quả tốt.",
-    "Chúc các bạn luôn giữ được tinh thần lạc quan! Hãy nhìn về phía trước và đón nhận những điều tốt đẹp.",
+    "Chúc mọi người ngày mới luôn vui vẻ và tràn đầy năng lượng!",
+    "Chúc mọi người có một ngày làm việc hiệu quả! Mong rằng mọi thứ sẽ thuận lợi và đạt kết quả tốt.",
+    "Chúc ae luôn giữ được tinh thần lạc quan! Hãy nhìn về phía trước và đón nhận những điều tốt đẹp.",
     "Chúc mọi người sức khỏe và hạnh phúc! Mong rằng mọi người sẽ luôn mạnh khỏe và có những khoảnh khắc vui vẻ bên gia đình và bạn bè.",
-    "Chúc mọi người thành công trong mọi dự định! Hãy theo đuổi ước mơ và không ngừng cố gắng nhé!",
-    "Chúc các bạn một ngày tràn ngập niềm vui! Hãy dành thời gian cho những điều bạn yêu thích.",
-    "Chúc mọi người luôn khám phá và học hỏi! Mỗi ngày là một cơ hội mới để phát triển.",
-    "Chúc mọi người luôn yêu đời và có nhiều nụ cười! Hãy lan tỏa niềm vui đến mọi người xung quanh!",
-    "Chúc các bạn có một ngày thật ý nghĩa và đầy cảm hứng!",
+    "Chúc mọi người ngày mới luôn thành công trong mọi dự định!",
+    "Chúc ae một ngày tràn ngập niềm vui! Hãy dành thời gian cho những điều bạn yêu thích.",
+    "Chúc mọi người luôn yêu đời và có nhiều nụ cười! ngày mới tốt lành nhé!",
+    "Chúc ae có một ngày thật ý nghĩa và đầy cảm hứng!",
     "Chúc mọi người luôn tìm thấy hạnh phúc trong từng khoảnh khắc nhỏ bé!"
 ];
 
