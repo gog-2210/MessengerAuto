@@ -49,7 +49,7 @@ async function job() {
   const password = process.env.PASSWORD;
   const groupUrl = process.env.GROUP_URL; // Đường dẫn nhóm chat
 
-  const browser = await puppeteer.launch({ headless: false }); // Sử dụng headless: false để xem hoạt động
+  const browser = await puppeteer.launch({ headless: true }); // Sử dụng headless: false để xem hoạt động
   const page = await browser.newPage();
 
   try {
