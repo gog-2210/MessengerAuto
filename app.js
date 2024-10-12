@@ -26,7 +26,7 @@ async function loginToMessenger(page, username, password) {
   await page.click('button[name="login"]');
 
   // Thay thế page.waitFor bằng page.waitForTimeout
-  await setTimeout(10000);
+  await setTimeout(6000);
 }
 
 async function sendMessage(page, groupUrl, message) {
@@ -37,7 +37,7 @@ async function sendMessage(page, groupUrl, message) {
     // Nhập tin nhắn
     await page.type('[aria-label="Tin nhắn"]', message);
     await page.keyboard.press("Enter");
-    await setTimeout(Math.random() * 2000 + 3000);
+    await setTimeout(Math.random() * 5000 + 10000);
     console.log("Message sent: ", message);
   } catch (error) {
     console.error("Error sending message:", error);
@@ -49,7 +49,7 @@ async function job() {
   const password = process.env.PASSWORD;
   const groupUrl = process.env.GROUP_URL; // Đường dẫn nhóm chat
 
-  const browser = await puppeteer.launch({ headless: true }); // Sử dụng headless: false để xem hoạt động
+  const browser = await puppeteer.launch({ headless: false }); // Sử dụng headless: false để xem hoạt động
   const page = await browser.newPage();
 
   try {
